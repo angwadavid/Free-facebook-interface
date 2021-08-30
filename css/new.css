@@ -1,0 +1,99 @@
+body{
+	background-color: rgb(233,235,238);
+}
+
+.div{
+	margin-top: 0;
+	background-color: rgb(59,89,152);
+	color: white;
+	padding: 3px;
+	margin: auto;
+	width: 600px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family:sans-serif;
+}
+
+.dav{
+	background-color: white;
+	color:black;
+	padding: 3px;
+	margin:auto;
+	width: 600px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:sans-serif;
+
+}
+.form-box{
+	padding: 10px;
+	margin:auto;
+	width: 570px;
+	font-family:sans-serif;
+	border:20px;
+	border-color: white;
+}
+.form-control{
+	display:block;
+	width:100%;
+	padding:4px;
+}
+.young{
+	font-size: 12px;
+}
+.ab{
+	text-align: center;
+}
+.class{
+	font-size: normal;
+	display: inline;
+	word-spacing: 125px;
+}
+.job{
+	font-size: 12px;
+}
+select{
+	font-size: 16px
+}
+.hope{
+	font-size: 12px;
+}
+button{
+    background-color: rgb(64,128,255);
+    color:white;
+    padding:5px;
+    border:1px solid blue;
+    width:200px;
+    margin:auto;
+    border-radius: 2px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.jump{
+	font-size: 12px;
+	text-align: center;
+
+}
+.form-box{
+	padding: 10px;
+	margin:auto;
+	width: 570px;
+	font-family:sans-serif;
+	border:20px;
+	border-color: white;
+	display:block;
+	width:90px;
+
+}
+
+.box{
+	padding: 10px;
+	margin:auto;
+	width: 570px;
+	border-color:rgb(233,235,238); ;
+	font-family:sans-serif;
+	padding:10px;
+
+
+}

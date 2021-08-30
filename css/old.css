@@ -1,0 +1,102 @@
+.body{
+	background-color: white;
+}
+.box{
+	padding: 10px;
+	margin:auto;
+	width: 866%;
+	height: 370px;
+	font-family:sans-serif;
+	background-color: rgb (236,239,245);
+}
+.div{
+	margin-top: 0;
+	background-color: rgb(59,89,152);
+	color: white;
+	padding: 3px;
+	margin: auto;
+	width: 585px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family:sans-serif;
+
+}
+.box{
+	padding: 10px;
+	margin:auto;
+	width: 570px;
+	border-color:rgb(233,235,238); ;
+	font-family:sans-serif;
+}
+.form-control{
+	display:block;
+	width:107%;
+	padding:13px;
+}
+.young{
+	font-size: 16px;
+	font-weight: bold;
+	width: 510px;
+	margin:9px;
+	margin-left: 0px;
+}
+
+.box{
+    display: block;
+    width:570px;
+    margin:auto;
+    background-color: rgb(233,235,238);
+    color:white;
+    padding:10px;
+
+}
+
+.vid{
+	margin-top: 0px;
+	background-color: rgb(255,251,226);
+	color: black;
+	padding: 3px;
+	margin: auto;
+	width: 587px;
+	color: rgb(127,114,128);
+	font-size: 0px;
+	font-family:sans-serif;
+
+}
+button{
+	padding: 12px;
+	width: 101%;
+	background-color: rgb(66,103,178);
+	margin: auto;
+	color: white;
+	margin-top: 0px;
+}
+
+button:hover{
+	color: white;
+	background-color: rgb(70,94,145);
+}
+
+.jj{
+	text-align: center;
+	color: black;
+}
+
+.src{
+	text-align: center;
+	color: black;
+}
+
+.register{
+	border-style:none;
+	height: 42px;
+	margin-bottom:7px;
+	padding-bottom:23px;
+	padding-top:16px;
+	padding-left: 14px;
+	padding-right: 14px;
+	margin-left: 200px;
+	text-align: center;
+	background-color:rgb(66,183,42);
+	color:#fff;
+}
