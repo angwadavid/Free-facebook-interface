@@ -1,0 +1,118 @@
+
+body{
+    background-image: url('photos/background.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin:0;
+}
+
+.body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(171, 177, 186, 0.4);
+    height: 690px;
+}
+
+
+.van{
+    margin:0;
+    padding:0px;
+    border-top-style: groove;
+    border-bottom-style: double;color: yellow;
+    padding-right: 15px;color: red solid;
+    border-bottom:5px;color: red solid;
+    border-top:5px;color: red solid;
+}
+ ul, li{
+    text-decoration:blink;
+    list-style-type: none;
+    color: #fff;
+    display: inline;
+    padding:10px;
+}
+
+ul, li a{
+    text-decoration:blink;
+    color:#fff;
+
+}
+
+
+.a{
+	background-color: unset;
+	color: yellow;
+	text-decoration-color: purple;
+	text-decoration: underline;
+	font-style: italic;
+}
+.hb{
+    border:78px;
+    border-radius:78px;
+    border-radius: 78px
+    border-color: black;
+    border-background-color:black solid ;
+}
+
+
+ ul, li{
+    text-decoration:blink;
+    list-style-type: none;
+    color: #fff;
+    display: inline;
+    padding:10px;
+}
+
+ul, li a{
+    text-decoration:blink;
+    color:#fff;
+}
+
+.box input{
+    width: 90%;
+}
+.john{
+    text-align: center;
+    font-size: 41px;
+    letter-spacing: 0px;
+}
+
+
+.btn{
+    background-color: green;
+    color:white;
+    padding:10px;
+    border:1px solid green;
+    width:100px;
+    margin:auto;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.form{
+    margin: auto;
+    width: 500px;
+    padding: 16px;
+    border:1px solid grey;
+    border-radius: 20px;
+    display: block;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: grey;
+    padding:8px;
+    font-size: 28px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.icons{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}

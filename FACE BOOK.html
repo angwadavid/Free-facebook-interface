@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="cs/first.css" media="screen and (min-width: 769px)">
+<link rel="stylesheet" type="text/css" href="cs/second.css" media="screen and (max-width: 768px)">
+
+<title>Facebook Log In</title>
+</head>
+
+<body>
+<div class="computer">
+  <header>
+    <div class="mary">
+      <img src="IMG/fblogo.png" class="fblogo">
+      <div class="mark">
+        <table>
+          <tr>
+            <td class="logintext">Email or Phone</td>
+            <td class="logintext"><span class="loginrowgap">Password</span></td>
+          </tr>
+            <td><input class="logintext loginfield" type="text"></td>
+            <td><input class="logintext loginrowgap loginfield" type="password"></td>
+            <td><input class="loginrowgap" id="loginbutton" type="submit" value="Log In"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="#" class="logintext loginrowgap" id="forgotpw">Forgotten account?</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </header>
+
+  <div class="maindiv">
+    <div class="maina">
+      <div class="welcome">
+        <div class="welcometext">Facebook helps you connect and share with the people in your life.</div>
+        <div class="epic">
+          <img src="IMG/connecting.png" alt="welcome">
+        </div>
+      </div>
+      <div class="signupdiv">
+        <div class="createaccount">
+          <div class="createh1"><span>Create an account</span></div>
+          <div class="createp">It's free and always will be.</div>
+        </div>
+        <div class="signupform">
+          <div class="inputname">
+            <input type="text" name="firstname" placeholder="First name" class="namebox namebox1 signuptextbox" required>
+            <input type="text" name="surname" placeholder="Surname" class="namebox namebox2 signuptextbox" required>
+          </div>
+          <input class="mobilepw signuptextbox" type="text" name="mobile/email" placeholder="Mobile number or email address" required><br>
+          <input class="mobilepw signuptextbox" type="password" placeholder="New password" required>
+          <br>
+          <p class="createp" id="birthday">Birthday</p>
+          <div class="dobdiv">
+            <select name="dobdate" class="dob day">
+        <option value="day">Day</option>
+        <option value="1">2</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="3">4</option>
+        <option value="3">4</option>
+        <option value="3">5</option>
+        <option value="3">6</option>
+        <option value="3">7</option>
+        <option value="3">8</option>
+        <option value="3">9</option>
+        <option value="3">10</option>
+        <option value="3">11</option>
+        <option value="3">12</option>
+        <option value="3">13</option>
+        <option value="3">14</option>
+        <option value="3">15</option>
+        <option value="3">16</option>
+        <option value="3">17</option>
+        <option value="3">18</option>
+        <option value="3">19</option>
+        <option value="3">20</option>
+        <option value="3">21</option>
+        <option value="3">22</option>
+        <option value="3">23</option>
+        <option value="3">24</option>
+        <option value="3">25</option>
+        <option value="3">26</option>
+        <option value="3">27</option>
+        <option value="3">28</option>
+        <option value="3">29</option>
+        <option value="3">30</option>
+        <option value="3">31</option>
+        </select>
+
+            <select name="dobmonth" class="dob month">
+        <option value="month">month</option>
+        <option value="jan">Jan</option>
+        <option value="feb">Feb</option>
+        <option value="mar">Mar</option>
+        <option value="apr">apr</option>
+        <option value="may">may</option>
+        <option value="jun">jun</option>
+        <option value="jul">jul</option>
+        <option value="aug">aug</option>
+        <option value="sep">sep</option>
+        <option value="oct">oct</option>
+        <option value="nov">nov</option>
+        </select>
+           <select name="dobyear" class="dob year">
+        <option value="1">year</option>
+        <option value="1">1021</option>
+        <option value="1020">1020</option>
+        <option value="1">1019</option>
+        <option value="1">1018</option>
+        <option value="1">1017</option>
+        <option value="1">1016</option>
+        <option value="1">1015</option>
+        <option value="1">1014</option>
+        <option value="1">1013</option>
+        <option value="1">1012</option>
+        <option value="1">1010</option>
+        <option value="1">1009</option>
+        <option value="1">1008</option>
+        <option value="1">1007</option>
+        <option value="1">1006</option>
+        <option value="1">1005</option>
+        <option value="1">1004</option>
+        <option value="1">1003</option>
+        <option value="1">1002</option>
+        <option value="1">1001</option>
+        <option value="1">1000</option>
+        <option value="1">1999</option>
+        <option value="1">1998</option>
+        <option value="1">1997</option>
+        <option value="1">1996</option>
+        <option value="1">1995</option>
+        <option value="1">1994</option>
+        <option value="1">1993</option>
+        <option value="1">1992</option>
+        <option value="1">1991</option>
+        <option value="1">1990</option>
+        <option value="1">1989</option>
+        <option value="1">1988</option>
+        <option value="1">1987</option>
+        <option value="1">1986</option>
+        <option value="1">1985</option>
+        <option value="1">1984</option>
+        <option value="1">1983</option>
+        <option value="1">1982</option>
+        <option value="1">1981</option>
+        <option value="1">1980</option>
+        <option value="1">1979</option>
+        <option value="1">1978</option>
+        <option value="1">1977</option>
+        <option value="1">1976</option>
+        <option value="1">1975</option>
+        <option value="1">1974</option>
+        <option value="1">1973</option>
+        <option value="1">1972</option>
+        <option value="1">1971</option>
+        <option value="1">1969</option>
+        <option value="1">1968</option>
+        <option value="1">1967</option>
+        <option value="1">1966</option>
+        <option value="1">1965</option>
+        <option value="1">1964</option>
+        <option value="1">1963</option>
+        <option value="1">1962</option>
+        <option value="1">1961</option>
+        <option value="1">1960</option>
+        <option value="1">1959</option>
+        <option value="1">1958</option>
+        <option value="1">1957</option>
+        <option value="1">1956</option>
+        <option value="1">1955</option>
+        <option value="1">1954</option>
+        <option value="1">1953</option>
+        <option value="1">1952</option>
+        <option value="1">1951</option>
+        <option value="1">1949</option>
+        <option value="1">1948</option>
+        <option value="1">1947</option>     
+        <option value="1">1946</option>
+        <option value="1">1945</option>
+        <option value="1">1944</option>
+        <option value="1">1943</option>
+        <option value="1">1942</option>
+        <option value="1">1941</option>
+        <option value="1">1940</option>
+        <option value="1">1939</option>
+        <option value="1">1938</option>
+        <option value="1">1937</option>
+        <option value="1">1936</option>
+        <option value="2">1935</option>
+        <option value="3">1934</option>
+        <option value="3">1933</option>
+        <option value="3">1932</option>
+        <option value="3">1931</option>
+        <option value="3">1930</option>
+        <option value="3">1929</option>
+        <option value="3">1928</option>
+        <option value="3">1927</option>
+        <option value="3">1926</option>
+        <option value="3">1925</option>
+        <option value="3">1924</option>
+        <option value="3">1923</option>
+        <option value="3">1922</option>
+        <option value="3">1921</option>
+        <option value="3">1920</option>
+        <option value="3">1919</option>
+        <option value="3">1918</option>
+        <option value="3">1917</option>
+        <option value="3">1916</option>
+        <option value="3">1915</option>
+        <option value="3">1914</option>
+        <option value="3">1913</option>
+        <option value="3">1912</option>
+        <option value="3">1911</option>
+        <option value="3">1910</option>
+        <option value="3">1909</option>
+        <option value="3">1908</option>
+        <option value="3">1907</option>
+        <option value="3">1906</option>
+        <option value="3">1905</option>
+        </select>
+            </select>
+            <div id="jobdb">
+            <a href="#">Why do I need to provide my date of birth?</a>
+              <div id="whydbtooltip">
+                  <strong>Providing your date of birth</strong> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our <a href="#">Data Policy</a>.
+                  <hr id="hrtooltip">
+                  <button id="whydbtooltipbutton">OK</button>
+              </div>
+            </div>
+          </div>
+          <div class="gender">
+            <span id="femalediv"><input type="radio" name="gender" value="female" id="female"><label class="gendertext" for="female">Female</label></span>
+            <span id="malediv"><input type="radio" name="gender" value="male" id="male"><label class="gendertext" for="male">Male</label></span>
+          </div>
+          <div>
+            <p class="terms">
+              By clicking Sign Up, you agree to our <a href="#" class="linksinterms">Terms</a>, <a href="#" class="linksinterms">Data Policy</a> and <a href="#" class="linksinterms">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+          </div>
+          <div class="clearfix">
+            <button type="button" id="signupbutton">Sign Up</button>
+          </div>
+          <div id="createpage">
+            <a href="#">Create a Page</a> for a celebrity, band or business.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div id="footersubdiv">
+      <div id="languagediv">
+        <a href="#" class="language" id="currentlang">English (UK)</a>
+        <a href="#" class="language">മലയാളം</a>
+        <a href="#" class="language">தமிழ்</a>
+        <a href="#" class="language">ಕನ್ನಡ</a>
+        <a href="#" class="language">हिन्दी</a>
+        <a href="#" class="language">اردو</a>
+        <a href="#" class="language">বাংলা</a>
+        <a href="#" class="language">తెలుగు </a>
+        <a href="#" class="language">Español</a>
+        <a href="#" class="language">Português (Brasil)</a>
+        <a href="#" class="language">Français (France)</a>
+        <a href="#" id="morelang"><i class="fa fa-plus" aria-hidden="true"></i></a>
+      </div>
+      <hr id="hrfinal">
+      <div id="extralinksdiv">
+        <a href="#" class="extralinks">Sign Up</a>
+        <a href="#" class="extralinks">Log In</a>
+        <a href="#" class="extralinks">Messenger</a>
+        <a href="#" class="extralinks">Facebook Lite</a>
+        <a href="#" class="extralinks">Find Friends</a>
+        <a href="#" class="extralinks">People</a>
+        <a href="#" class="extralinks">Profiles</a>
+        <a href="#" class="extralinks">Pages</a>
+        <a href="#" class="extralinks">Page categories</a>
+        <a href="#" class="extralinks">Places</a>
+        <a href="#" class="extralinks">Games</a>
+        <a href="#" class="extralinks">Locations</a>
+        <a href="#" class="extralinks">Marketplace</a>
+        <a href="#" class="extralinks">Groups</a>
+        <a href="#" class="extralinks">Instagram</a>
+        <a href="#" class="extralinks">Local</a>
+        <a href="#" class="extralinks">Fundraisers</a>
+        <a href="#" class="extralinks">About</a>
+        <a href="#" class="extralinks">Create ad</a>
+        <a href="#" class="extralinks">Create Page</a>
+        <a href="#" class="extralinks">Developers</a>
+        <a href="#" class="extralinks">Careers</a>
+        <a href="#" class="extralinks">Privacy</a>
+        <a href="#" class="extralinks">Cookies</a>
+        <a href="#" class="extralinks">AdChoices</a>
+        <a href="#" class="extralinks">Terms</a>
+        <a href="#" class="extralinks">Account security</a>
+        <a href="#" class="extralinks">Login help</a>
+        <a href="#" class="extralinks">Help</a>
+      </div>
+      <div id="copyrightdiv">
+          <span id="copyright"><a href="https://www.facebook.com" target="_blank" id="copyrightfblink">Facebook</a> © 2019</span>
+          <span id="disclaimer">UI cloned for educational purposes by <a href="https://www.linkedin.com/in/kspranav10/" target="_blank" id="David angwa">David angwa<i class="fa fa-linkedin-square"></i></a></span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+<!--Code for Mobile Screen-->
+
+<div class="mobile">
+  <div class="mobheader">
+    <img src="images/fblogo.png" class="mobfblogo">
+  </div>
+  <div id="mobapplink" class="clearfix">
+    <a href="#">
+      <img src="images/fbandroid.png" id="mobandroidpic">
+      <div id="getfbandroid">Get Facebook for Android and browse faster.</div>
+    </a>
+  </div>
+  <div class="mobmaindiv">
+    <div id="mobtextdiv">
+      <input type="text" class="mobtextbox mobtextbox1" placeholder="Mobile number or email address">
+      <input type="password" class="mobtextbox mobtextbox2" placeholder="Password">
+    </div>
+    <div class="mobloginbuttondiv">
+      <input type="submit" class="mobloginbutton" value="Log In">
+    </div>
+    <div id="ordiv">
+    <span id="or">or</span>
+    </div>
+    <div id="mobcreatediv">
+      <button id="mobcreate">Create New Account</button>
+    </div>
+    <div class="mobforgotpw">
+      <a href="#">Forgotten password?</a>
+      <span>·</span>
+      <a href="#">Help Center</a>
+    </div>
+  </div>
+  <div class="mobfooter">
+    <div id="moblangs">
+      <div class="item1">
+        <li><a href="#" id="mobcurrentlang">English (UK)</a></li>
+        <li><a href="#">தமிழ்</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">বাংলা</a></li>
+      </div>
+      <div class="item2">
+        <li><a href="#">മലയാളം</a></li>
+        <li><a href="#">ಕನ್ನಡ</a></li>
+        <li><a href="#">اردو</a></li>
+        <li><a href="#"><i class="fa fa-plus-square-o"></i></a></li>
+      </div>
+    </div>
+    <div class="mobcopyright">
+      <span class="mobfbcopyright"><a href="https://www.facebook.com" target="_blank" id="mobcopyrightfblink">Facebook</a> ©2019</span><br>
+      <span id="mobdisclaimer">UI cloned for educational purposes by <a href="https://www.linkedin.com/in/pranavks/" target="_blank" id="mobpranavks">Pranav K S &nbsp<i class="fa fa-linkedin-square"></i></a></span>
+    </div>
+    </div>
+</div>
+</body>
